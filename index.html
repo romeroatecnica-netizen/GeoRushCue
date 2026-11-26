@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoRushCue – Geography Time Trial &amp; Link Challenge Game</title>
+    <meta
+      name="description"
+      content="Beat my score in GeoRushCue: 60s–120s geography time-trial quiz on countries, capitals, rivers &amp; monuments with progressive clues and WhatsApp link duels."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://georushcue.bastelar.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://georushcue.bastelar.com/" />
+    <link rel="alternate" hreflang="en" href="https://georushcue.bastelar.com/" />
+    <link rel="alternate" hreflang="es" href="https://georushcue.bastelar.com/?lang=es" />
+    <link rel="alternate" hreflang="fr" href="https://georushcue.bastelar.com/?lang=fr" />
+    <link rel="alternate" hreflang="de" href="https://georushcue.bastelar.com/?lang=de" />
+    <link rel="alternate" hreflang="pt" href="https://georushcue.bastelar.com/?lang=pt" />
+    <link rel="alternate" hreflang="ar" href="https://georushcue.bastelar.com/?lang=ar" />
+    <link rel="alternate" hreflang="hi" href="https://georushcue.bastelar.com/?lang=hi" />
+    <link rel="alternate" hreflang="ru" href="https://georushcue.bastelar.com/?lang=ru" />
+    <link rel="alternate" hreflang="zh" href="https://georushcue.bastelar.com/?lang=zh" />
+    <link rel="alternate" hreflang="ja" href="https://georushcue.bastelar.com/?lang=ja" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GeoRushCue" />
+    <meta property="og:url" content="https://georushcue.bastelar.com/" />
+    <meta property="og:title" content="GeoRushCue – Geography Time Trial &amp; Link Challenge Game" />
+    <meta
+      property="og:description"
+      content="Beat my score in GeoRushCue: 60s–120s geography time-trial quiz on countries, capitals, rivers &amp; monuments with progressive clues and WhatsApp link duels."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GeoRushCue – Geography Time Trial &amp; Link Challenge Game" />
+    <meta
+      name="twitter:description"
+      content="Beat my score in GeoRushCue: 60s–120s geography time-trial quiz on countries, capitals, rivers &amp; monuments with progressive clues and WhatsApp link duels."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script id="georushcue-jsonld" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "name": "GeoRushCue",
+            "url": "https://georushcue.bastelar.com/",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "All",
+            "inLanguage": ["en", "es", "fr", "de", "pt", "ar", "hi", "ru", "zh", "ja"],
+            "description": "100% client-side geography time-trial quiz and serverless link challenge game across countries, capitals, rivers, and monuments with progressive clues.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "HowTo",
+            "name": "How to Challenge a Friend in GeoRushCue by Link or WhatsApp",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "name": "Select category and timer",
+                "text": "Pick Countries, Capitals, Rivers, Monuments, or All Mixed and choose a 60s, 90s, or 120s time trial."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Answer using minimal progressive clues",
+                "text": "Read Clue 1 first to earn maximum clue-saving points plus speed and streak bonuses, or reveal Clue 2 and Clue 3 if needed."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Send your encoded challenge link",
+                "text": "Share the URL or tap Send Challenge on WhatsApp so your friend plays the exact same seeded round and tries to beat your score."
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do GeoRushCue link challenges work without an account or server?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Your round seed, category, timer duration, and target score are encoded directly into the shareable URL parameter so your opponent plays the exact same sequence of questions locally."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How are points calculated with progressive clues and speed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Solving on Clue 1 awards 150 base points, Clue 2 awards 100 points, and Clue 3 awards 60 points, plus up to 40 speed bonus points and consecutive streak bonuses."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] text-slate-900 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

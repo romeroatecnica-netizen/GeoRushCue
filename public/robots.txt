@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://georushcue.bastelar.com/sitemap.xml

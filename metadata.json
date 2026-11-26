@@ -1,0 +1,8 @@
+{
+  "name": "GeoRushCue — Geography Time Trial, Progressive Clues & Link Challenge Game",
+  "description": "Fast geography time-trial challenge game across countries, capitals, rivers, and monuments with 3 progressive clues, tabular scoring, and serverless WhatsApp & link duels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
